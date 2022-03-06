@@ -17,7 +17,7 @@ document.getElementById("result").innerHTML = '<img id="captured_image" src="'+d
 
 console.log("ml5 version: ", ml5.version);
 
-classifier = ml5.imageClassifier("", modelLoaded);
+classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/BJs-mD7vWk/model.json", modelLoaded);
 function modelLoaded(){
 console.log("Model Loaded!");
 }
